@@ -2,9 +2,9 @@ import styled from "@emotion/styled";
 import { Children } from "react";
 
 const StyleInput = styled.input`
-  font-size:18px;
+  font-size:16px;
   border:none;
-  width:314px;
+  width:100%;
   background:transparent;
   padding-bottom:5px;
   :focus
@@ -13,7 +13,7 @@ const StyleInput = styled.input`
 `
 
 const StyleDiv = styled.div`
-  width: 314px;
+  width: 100%;
   height: 60px;
 `
 
@@ -22,11 +22,11 @@ const StyleLabel = styled.label`
   color: #B8B8BB;
 `
 
-function InputText ({ label, name , onChange,type}) { 
+function InputText ({ label, name , onChange,type, placeholder}) { 
   return (
     <StyleDiv>
       {label&&<StyleLabel>{label}</StyleLabel>}
-      <StyleInput onChange={onChange} name={name} type={type}/>
+      <StyleInput onChange={onChange} name={name} type={type} placeholder={placeholder}/>
     </StyleDiv>
   )
 }
