@@ -1,3 +1,17 @@
+# App Hora en UTC
+Atravez de un Formulario se envía una fecha,hora y TimeZone del lugar de donde estamos, Para luego obtener La hora UTC.
+# Conexion con una APi rest
+Se obtiene la hora UTC de un response De una Api Rest.
+Ejemplo:   
+
+Envio:                                
+"fecha":"2021-06-08 10:18:45",          
+"zona":"+3"                      
+
+Respuesta: 
+"time": " 07:18:45",
+"zoneTime": "UTC".
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +82,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+## ScreenShot
+<img src="/screenApp1.png" alt="screen"/>
+<img src="/screenApp2.png" alt="screen"/>
+
+## Autores ✒️
+
+* **Robert Tolentino** - *Trabajo Inicial* - [robcartome](https://github.com/robcartome)
