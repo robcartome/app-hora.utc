@@ -7,13 +7,14 @@ function HorasService() {
   return HorasService.instance;
 }
 
-ProductsService.prototype.updateHoratoUtc = (date, zone) =>
-  apiFetch(`${BASE_URL}/utc/`, {
+HorasService.prototype.updateHoratoUtc = (date, zone) =>{
+  const response = apiFetch(`${BASE_URL}/api/utc`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
     },
-    body: JSON.stringify({ date, zone }),
+    body: JSON.stringify({ "fecha": date, "zona": zone }),
   });
-
+  return response
+}
   export default HorasService;
