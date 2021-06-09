@@ -1,5 +1,6 @@
 # App Hora en UTC
 Atravez de un Formulario se envía una fecha,hora y TimeZone del lugar de donde estamos, Para luego obtener La hora UTC.
+ 
 # Conexion con una API rest
 Se obtiene la hora UTC de un response De una Api Rest.
 Ejemplo:   
@@ -13,8 +14,10 @@ Respuesta:
 "zoneTime": "UTC".
 
 # Getting Started
-Instalar las librerias usadas
+Clonar la API rest y correrlo en Local : 
+### https://github.com/robcartome/api-hora-utc
 
+Instalar las librerias usadas
 ### `npm install`
 
 ## Available Scripts
