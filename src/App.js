@@ -18,7 +18,6 @@ function App() {
     setOpen(false);
   };
 
-  console.log("aaa: ",horaUtc)
   const body = (
     <ModalWrapper>
       <h2>Hora {horaUtc.timeZone.toUpperCase()}</h2>
@@ -70,7 +69,6 @@ function App() {
               dateTime,
               zoneTime
             );
-            console.log("rsp: ", consultaHoraUtc.response);
             setHoraUtc({hora: consultaHoraUtc.response.time, timeZone: consultaHoraUtc.response.timeZone, msg: msg});
             handleOpen();
           }}
