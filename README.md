@@ -1,6 +1,6 @@
 # App Hora en UTC
 Atravez de un Formulario se envía una fecha,hora y TimeZone del lugar de donde estamos, Para luego obtener La hora UTC.
-# Conexion con una APi rest
+# Conexion con una API rest
 Se obtiene la hora UTC de un response De una Api Rest.
 Ejemplo:   
 
@@ -12,13 +12,13 @@ Respuesta:
 "time": " 07:18:45",
 "zoneTime": "UTC".
 
-# Getting Started with Create React App
+# Getting Started
+Instalar las librerias usadas
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### `npm install`
 
 ## Available Scripts
-
-In the project directory, you can run:
+Correr el proyecto:
 
 ### `npm start`
 
