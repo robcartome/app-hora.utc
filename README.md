@@ -86,8 +86,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 ## ScreenShot
-<img src="/screenApp1.png" alt="screen"/>
-<img src="/screenApp2.png" alt="screen"/>
+<img src="/screenApp1.PNG" alt="screen"/>
+<img src="/screenApp2.PNG" alt="screen"/>
 
 ## Autores ✒️
 
